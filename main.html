@@ -1,16 +1,55 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+	<div >
+    <h1>Job App Form</h1>
+     <div id="name">
+        <label for="exampleInputName">Full Name:</label>
+        <input type="text" name="fullname" id="form-control" id="exampleInputName" placeholder="Enter your name and surname" required="required">
+      </div>
+      <br>
+	  	 <div id="email">
+        <label for="exampleInputEmail1" required="required">Email address: </label>
+        <input type="email" name="email" id="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address">
+      </div>
+      <br>
+      <div id="password">
+        <label for="password">password :</label>
+        <input type="text" name="password" id="form-control" id="exampleInputName" placeholder="password" required="required">
+     </div>
+	 
+   <div id="radio" >
+    <form action="#">
+      <p>Gender:
+      <input type="radio" id="M" name="fav_language" value="M">
+      <label for="M">M</label>
+      <input type="radio" id="F" name="fav_language" value="F">
+      <label for="F">F</label>
+  </p>
+     
+        <div id="Age">
+          <label for="Age">Age :</label>
+        <input type="text" name="Age" id="form-control" id="exampleInputName" placeholder="Age" required="required">
+      </div>
+      <br>
+       <div id="DOB">
+        <label for="DOB">DOB</label>
+        <input type="date" name="DOB" id="form-control" id="exampleInputname" placeholder="DOB" required="required">
+        </div>
+        <br>
+       <label for="laptop brand">Laptop brand:</label>
+     <select id="lapto brand">
+         <option value="apple">Apple</option>
+         <option value="hp">HP</option>
+         <option value="dell">Dell</option>
+         <option value="lenovo">Lenovo</option>
+      </select>
+      <br><br>
+    <button type="submit" class="btn btn-primary">Submit</button>  
+    </form>
+  </div>
 </body>
-
 </html>

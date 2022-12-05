@@ -1,2 +1,12 @@
-
-/* Your CSS Code here. */
+h1 {
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: red;
+  }
+  
+  img {
+  height: 40px;}
+div{
+  background-color: rgb(212, 203, 219);
+}
